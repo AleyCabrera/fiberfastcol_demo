@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta - Fiber Fast</title>
+    <link rel="stylesheet" href="style/register.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LADO IZQUIERDO -->
+    <div class="left">
+
+        <img src="img/logo.png" class="logo" alt="Fiber Fast">
+
+        <h1 class="titulo">Crear Cuenta</h1>
+        <p class="subtitulo">Registro de usuarios Fiber Fast</p>
+
+        <form>
+
+            <label>NIC</label>
+            <input type="number" placeholder="Ingrese su NIC" required>
+
+            <label>Nombre</label>
+            <input type="text" placeholder="Ingrese su nombre" required>
+
+            <label>Apellido</label>
+            <input type="text" placeholder="Ingrese su apellido" required>
+
+            <label>Correo</label>
+            <input type="email" placeholder="Ingrese su correo" required>
+
+            <label>Teléfono</label>
+            <input type="tel" placeholder="Ingrese su teléfono" required>
+
+            <label>Contraseña</label>
+            <div class="password-wrapper">
+                <input type="password" placeholder="Cree una contraseña" required>
+                <span class="toggle-icon">👁️</span>
+            </div>
+
+            <label>Confirmar Contraseña</label>
+            <div class="password-wrapper">
+                <input type="password" placeholder="Repita su contraseña" required>
+                <span class="toggle-icon">👁️</span>
+            </div>
+
+            <div class="terms">
+                <input type="checkbox" required> Acepto términos y condiciones Al registrarme, confirmo que he leído y acepto los términos y condiciones de uso, así como la política de privacidad del servicio Fiber Fast. Autorizo el tratamiento de mis datos conforme a la normativa vigente.
+            </div>
+
+            <button class="btn-register">Registrarme</button>
+
+        </form>
+
+    </div>
+
+    <!-- LADO DERECHO (VIDEO) -->
+    <div class="right">
+        <video autoplay muted loop playsinline>
+            <source src="video/portal.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay">
+            <h2>Bienvenido al</h2>
+            <h1>Fiber Fast Portal Clientes</h1>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

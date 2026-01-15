@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Internet de Fibra Óptica Rápido y Confiable en Colombia. Hasta 800 Mbps para tu hogar o negocio.">
+    <meta name="keywords" content="internet, fibra óptica, Colombia, wifi, velocidad, FiberFast">
+    <meta name="theme-color" content="#4F528C">
+
+    <!-- Preconnect para optimización -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="img/logo.png">
+
+    <title>FiberFast - Internet de Fibra Óptica de Alta Velocidad en Colombia</title>
+
+    <!-- Fuentes optimizadas -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/banner.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" aria-label="FiberFast - Inicio">
+                    <img src="img/logo.png" alt="FiberFast Logo" width="120" height="50">
+                </a>
+            </div>
+
+            <nav class="nav" aria-label="Navegación principal">
+                <ul class="nav-list" role="menubar">
+                    <li role="none"><a href="#home" class="nav-link" role="menuitem">Inicio</a></li>
+                    <li role="none"><a href="#about" class="nav-link" role="menuitem">Sobre Nosotros</a></li>
+                    <li role="none"><a href="#planes" class="nav-link" role="menuitem">Planes</a></li>
+                    <li role="none"><a href="#cobertura" class="nav-link" role="menuitem">Cobertura</a></li>
+                    <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="portal-cliente.html" class="btn-portal" aria-label="Acceder al Portal del Cliente">
+                    <i class="fas fa-user-circle" aria-hidden="true"></i>
+                    <span>Portal Cliente</span>
+                </a>
+                <button class="hamburger" aria-label="Menú de navegación" aria-expanded="false"
+                    aria-controls="nav-menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" role="region" aria-label="Sección principal">
+        <div class="hero-video-container" aria-hidden="true">
+            <video autoplay muted loop playsinline preload="metadata" poster="img/hero-fallback.jpg">
+                <source src="video/banner.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge" aria-label="Insignia destacada">⚡ Más Rápido que Nunca</span>
+                <h1 class="hero-title">
+                    Internet de Fibra Óptica
+                    <span class="highlight">Rápido y Confiable</span>
+                </h1>
+                <p class="hero-description">
+                    Conecta tu hogar o negocio con la mejor velocidad. ¡Experimenta hasta 800 Mbps!
+                    Únete a miles de clientes satisfechos en toda Colombia.
+                </p>
+
+                <div class="hero-stats" role="region" aria-label="Estadísticas de servicio">
+                    <div class="stat">
+                        <span class="stat-number">99.9%</span>
+                        <span class="stat-label">Uptime</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Soporte</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">&lt;1ms</span>
+                        <span class="stat-label">Latencia</span>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#planes" class="btn btn-primary btn-icon">
+                        Ver Planes <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-outline">
+                        <i class="fas fa-phone-alt" aria-hidden="true"></i> Contáctanos
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-indicator" aria-label="Desplazarse hacia abajo">
+            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+        </a>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">¿Por qué elegirnos?</span>
+                <h2 class="section-title">
+                    Tu Conexión, <span class="highlight">Nuestra Prioridad</span>
+                </h2>
+                <p class="section-description">
+                    En FiberFast conectamos hogares y negocios en Colombia con internet de fibra óptica
+                    de última generación, garantizando estabilidad, velocidad y soporte permanente.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Velocidad Máxima</h3>
+                    <p>
+                        Hasta 800 Mbps simétricos para streaming 4K, gaming competitivo y
+                        trabajo remoto sin interrupciones.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad Integral</h3>
+                    <p>
+                        Protección avanzada contra ciberamenazas con firewall integrado y
+                        navegación segura para toda tu familia.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Soporte 24/7</h3>
+                    <p>
+                        Equipo técnico especializado disponible todos los días del año para
+                        resolver cualquier inconveniente.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner principal ancho -->
+    <section class="banner">
+        <!-- Fondo con slider de imágenes -->
+        <div class="banner-slider">
+            <div class="slide active">
+                <img src="img/familia_usando_internet.jpg" alt="Familia disfrutando de internet rápido"
+                    class="slide-img">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide">
+                <img src="img/niña_usando_tablet.jpg" alt="Niña aprendiendo con tablet" class="slide-img">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide">
+                <img src="img/persona_usando_laptop.jpg" alt="Persona trabajando con laptop" class="slide-img">
+                <div class="slide-overlay"></div>
+            </div>
+        </div>
+    
+        <!-- Contenido del banner -->
+        <div class="banner-content">
+            <div class="logo-section">
+                <img src="img/logo.jpg" alt="Fiber Fast Logo" class="logo-alt">
+                <div class="brand">
+                    <h1 class="brand-name">Fiber Fast</h1>
+                    <span class="brand-tagline">connection</span>
+                </div>
+            </div>
+    
+            <div class="banner-message">
+                <h2 class="slogan">
+                    <span class="slogan-line">Tu mejor opción en</span>
+                    <span class="slogan-highlight">Internet y Entretenimiento</span>
+                </h2>
+                <p class="offer">Disfruta de la mayor velocidad con nuestra conexión de fibra óptica</p>
+    
+                <div class="promo-features">
+                    <div class="promo-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>Velocidad máxima</span>
+                    </div>
+                    <div class="promo-item">
+                        <i class="fas fa-wifi"></i>
+                        <span>Conexión estable</span>
+                    </div>
+                    <div class="promo-item">
+                        <i class="fas fa-film"></i>
+                        <span>Entretenimiento incluido</span>
+                    </div>
+                </div>
+    
+                <button class="promo-btn">
+                    <i class="fas fa-gift"></i>
+                    <span>Descubre nuestras promociones</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    
+        <!-- Controles del slider -->
+        <div class="slider-controls">
+            <button class="control-btn prev-btn" aria-label="Imagen anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+    
+            <div class="slider-indicators">
+                <button class="indicator active" data-slide="0" aria-label="Ir a imagen 1"></button>
+                <button class="indicator" data-slide="1" aria-label="Ir a imagen 2"></button>
+                <button class="indicator" data-slide="2" aria-label="Ir a imagen 3"></button>
+            </div>
+    
+            <button class="control-btn next-btn" aria-label="Siguiente imagen">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    
+        <!-- Timer de autoplay -->
+        <div class="slider-timer">
+            <div class="timer-bar"></div>
+        </div>
+    </section>
+
+    <!-- Planes -->
+    <section id="planes" class="planes section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">El plan perfecto para ti</span>
+                <h2 class="section-title">Planes <span class="highlight">FiberFast</span></h2>
+                <p class="section-description">
+                    Selecciona el plan que mejor se adapte a tus necesidades.
+                    Todos incluyen instalación gratuita y router WiFi 6.
+                </p>
+            </div>
+
+            <div class="plans-container">
+                <!-- Plan Bronce -->
+                <article class="plan-card">
+                    <div class="plan-header">
+                        <h3>Plan Bronce</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">69.900</span>
+                            <span class="period">/mes</span>
+                        </div>
+                        <p class="plan-speed">400 Mbps + Contenido Digital</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Ideal para navegación y redes sociales</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Sin límites de datos</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Soporte técnico básico 24/7</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Hasta 10 dispositivos conectados</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">Contratar Ahora</a>
+                </article>
+
+                <!-- Plan Plata -->
+                <article class="plan-card">
+                    <span class="plan-badge">Popular</span>
+                    <div class="plan-header">
+                        <h3>Plan Plata</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">89.900</span>
+                            <span class="period">/mes</span>
+                        </div>
+                        <p class="plan-speed">600 Mbps + Contenido Digital</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Ideal para familias y teletrabajo</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Soporte técnico prioritario 24/7</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Router WiFi 6 incluido</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Hasta 20 dispositivos conectados</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-block">Contratar Ahora</a>
+                </article>
+
+                <!-- Plan Oro -->
+                <article class="plan-card featured">
+                    <span class="plan-badge">Recomendado</span>
+                    <div class="plan-header">
+                        <h3>Plan Oro</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">119.900</span>
+                            <span class="period">/mes</span>
+                        </div>
+                        <p class="plan-speed">800 Mbps + Contenido Digital Premium</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Máxima velocidad para múltiples dispositivos
+                        </li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Perfecto para streaming 4K y gaming</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Protección avanzada incluida</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> WiFi Mesh opcional</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Prioridad en soporte técnico</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary btn-block">Contratar Ahora</a>
+                </article>
+            </div>
+
+            <div class="plan-notice">
+                <p>
+                    <i class="fas fa-info-circle" aria-hidden="true"></i>
+                    Todos los planes incluyen instalación gratuita y garantía de satisfacción de 30 días.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <a href="index.html" class="footer-logo">
+                        <img src="img/logo-white.png" alt="FiberFast Logo" width="120" height="50">
+                    </a>
+                    <p class="footer-description">
+                        Conectando Colombia con la mejor tecnología en fibra óptica.
+                        Velocidad, confianza y soporte permanente.
+                    </p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone-alt" aria-hidden="true"></i> <a href="tel:018001234567">01 800 123
+                                456</a></p>
+                        <p><i class="fas fa-envelope" aria-hidden="true"></i> <a
+                                href="mailto:info@fiberfast.com.co">info@fiberfast.com.co</a></p>
+                        <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Bogotá, Colombia</p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Planes</h3>
+                    <ul class="footer-links">
+                        <li><a href="#planes">Plan Bronce</a></li>
+                        <li><a href="#planes">Plan Plata</a></li>
+                        <li><a href="#planes">Plan Oro</a></li>
+                        <li><a href="#planes">Para Empresas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Servicios</h3>
+                    <ul class="footer-links">
+                        <li><a href="#cobertura">Verificar Cobertura</a></li>
+                        <li><a href="#about">Instalación Profesional</a></li>
+                        <li><a href="#contact">Soporte Técnico</a></li>
+                        <li><a href="#planes">WiFi Móvil</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#terminos">Términos y Condiciones</a></li>
+                        <li><a href="#privacidad">Política de Privacidad</a></li>
+                        <li><a href="#contrato">Contrato de Servicio</a></li>
+                        <li><a href="#sitemap">Mapa del Sitio</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Síguenos</h3>
+                    <div class="social-links" role="navigation" aria-label="Redes sociales">
+                        <a href="https://www.facebook.com/fiberfastconnectioncolombia" class="social-link"
+                            aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/fiberfastconnection" class="social-link"
+                            aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://twitter.com/fiberfast" class="social-link" aria-label="Twitter" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/fiberfastconnection" class="social-link"
+                            aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://wa.me/573044614193" class="social-link" aria-label="WhatsApp" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <div class="newsletter">
+                        <h4>Suscríbete a nuestro boletín</h4>
+                        <form class="newsletter-form" novalidate>
+                            <label for="newsletter-email" class="sr-only">Correo electrónico</label>
+                            <input type="email" id="newsletter-email" name="email" placeholder="Tu correo electrónico"
+                                aria-label="Correo electrónico para boletín" required>
+                            <button type="submit" aria-label="Suscribirse">
+                                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2026 <strong>FiberFast</strong>. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Elementos Flotantes -->
+    <div class="floating-elements">
+        <a href="https://wa.me/573044614193?text=Hola%20FiberFast,%20quiero%20más%20información%20sobre%20sus%20planes%20de%20internet."
+            class="whatsapp-button" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            <span class="whatsapp-text">¿Necesitas ayuda?</span>
+        </a>
+
+        <button class="scroll-top" aria-label="Volver arriba">
+            <i class="fas fa-chevron-up" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js" defer></script>
+    <script src="js/banner.js" defer></script>
+</body>
+
+</html>

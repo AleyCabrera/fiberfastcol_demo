@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <title>Fibe Fast Portal Clientes</title>
+    <link rel="stylesheet" href="style/portal-cliente.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LADO IZQUIERDO DEL LOGIN -->
+    <div class="left">
+        <img src="img/logo.png" class="logo" alt="FibeFast">
+
+        <h1 class="titulo">Inicio Sesión</h1>
+        <p class="subtitulo">Fibe Fast Portal Clientes</p>
+
+        <form>
+            <label>Correo</label>
+            <input type="email" placeholder="Ingrese su correo" required>
+
+            <label>Contraseña</label>
+            <div class="password-wrapper">
+                <input type="password" placeholder="Ingrese su contraseña" required>
+                <span class="toggle-icon">👁️</span>
+            </div>
+
+            <div class="options">
+                <label><input type="checkbox">Recordar</label>
+                <a href="#" class="forgot">¿Ha olvidado su contraseña?</a>
+            </div>
+
+            <button class="btn-login" a href="portalweb.html" >Ingresar</button>
+
+            <p class="help">¿Aun no tienes Usuario? <a href="register.html" target="_blank">Registrate</a></p>
+        </form>
+    </div>
+
+    <!-- LADO DERECHO (IMAGEN DE FONDO) -->
+    <div class="right">
+    <video autoplay muted loop playsinline>
+        <source src="video/portal.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay">
+        <h2>Bienvenido al</h2>
+        <h1>Fiber Fast Portal Clientes</h1>
+    </div>
+</div>
+
+
+</div>
+
+</body>
+</html>
